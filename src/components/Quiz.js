@@ -24,8 +24,10 @@ const Option = styled.button`
   border-radius: 15px;
   padding: 15px 30px;
   text-decoration: none;
-  color: white;
-  background-color: #ff9900;
+  &:hover {
+    color: white;
+    background-color: #616A94;
+}
   transition: 0.3s;
   font-size: 1em;
   outline: none;
@@ -36,7 +38,7 @@ const Option = styled.button`
   @media screen and (min-width: 1180px) {
     &:hover {
       color: white;
-      background-color: green;
+      background-color: #161A31;
     }
   }
 `;
